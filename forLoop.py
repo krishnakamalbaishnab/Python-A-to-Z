@@ -31,3 +31,11 @@ for i in range(3):
 # - C++ offers more control over loop execution through features like range-based `for` loops and iterators.
 
 # In summary, while the basic functionality of `for` loops remains consistent across languages, the syntax and additional features may vary. Python's `for` loop syntax is designed to prioritize simplicity and readability, which may differ from the more explicit syntax found in languages like C, JavaScript, and Java.
+    
+
+
+
+number = input("Enter a number: ")
+
+for i in range(1, 11):
+    print(f"{number} x {i} = {int(number) * i}")
