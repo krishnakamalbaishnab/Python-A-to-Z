@@ -7,3 +7,6 @@ def greet_user():
     message = "b" # this is a local variable
 
 greet_user()
+
+
+print(message) # this will print b
