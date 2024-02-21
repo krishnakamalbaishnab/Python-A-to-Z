@@ -44,5 +44,3 @@ def increement(number ,by):
 result = (increement(2,3))  #if this line seems confuding for people who is reading this code, what we can do is that we can write the increment function in this way [increement(4, by=3)]
 
 print(result)
-
-
