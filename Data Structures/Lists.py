@@ -28,3 +28,16 @@ print(listD) #prints [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
 
 print(letters[0]) #prints a
 print(letters[1]) #prints b
+
+
+# finding the length of the list
+
+print(len(letters)) #prints 4
+
+# finding the index of the element in the list
+
+print(letters.index('a')) #prints 0
+
+# finding the count of the element in the list
+
+print(letters.count('a')) #prints 1
