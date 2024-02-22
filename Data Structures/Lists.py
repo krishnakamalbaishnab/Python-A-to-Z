@@ -41,3 +41,49 @@ print(letters.index('a')) #prints 0
 # finding the count of the element in the list
 
 print(letters.count('a')) #prints 1
+
+
+i = 0
+while i < 3:
+    print(i)
+    i += 1
+else:
+    print(0)
+
+# accessing items in a list
+
+listOne = ["b","b","c","d"]
+
+print(listOne[0]) #prints b
+
+# accessing items in a list using negative index
+
+print(listOne[-1]) #prints d
+
+# accessing items in a list using slicing
+
+print(listOne[0:2]) #prints ['b', 'b']
+
+# accessing items in a list using slicing
+
+print(listOne[1:]) #prints ['b', 'c', 'd']
+
+# accessing items in a list using slicing
+
+print(listOne[:2]) #prints ['b', 'b']
+
+customList = list(range(20)) # creates a list of 20 elements
+
+print(customList) #prints [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+
+#now if we want to access the elements from 3 to 10 we can do it in the following way
+
+print(customList[3:11]) #prints [3, 4, 5, 6, 7, 8, 9, 10]
+
+# if we want to access the elements from 3 to 10 with a step of 2 we can do it in the following way
+
+print(customList[3:11:2]) #prints [3, 5, 7, 9]
+
+# if we want to access the elements from 3 to 10 with a step of 2 in reverse order we can do it in the following way
+
+print(customList[10:2:-2]) #prints [10, 8, 6, 4]
