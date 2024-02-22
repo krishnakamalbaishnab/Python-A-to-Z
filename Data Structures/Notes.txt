@@ -1,0 +1,33 @@
+Python comes with several built-in data structures that are commonly used for storing and manipulating data. Some of the most commonly used ones include:
+
+1. **Lists**: Lists are ordered collections of items. They are mutable, meaning you can change the elements they contain after they have been created. Lists are defined by square brackets `[ ]` and can contain elements of different data types.
+
+```python
+my_list = [1, 2, 3, 4, 5]
+```
+
+2. **Tuples**: Tuples are similar to lists, but they are immutable, meaning they cannot be changed after they are created. Tuples are defined by parentheses `()`.
+
+```python
+my_tuple = (1, 2, 3, 4, 5)
+```
+
+3. **Dictionaries**: Dictionaries are unordered collections of key-value pairs. Each key-value pair maps the key to its corresponding value. Dictionaries are defined using curly braces `{}`.
+
+```python
+my_dict = {'name': 'John', 'age': 30, 'city': 'New York'}
+```
+
+4. **Sets**: Sets are unordered collections of unique elements. They are useful for tasks that involve checking for membership and eliminating duplicate entries. Sets are defined using curly braces `{}` or by using the `set()` function.
+
+```python
+my_set = {1, 2, 3, 4, 5}
+```
+
+5. **Strings**: Strings are sequences of characters. While not exactly a data structure in the same sense as the others, strings are fundamental for representing and manipulating textual data in Python.
+
+```python
+my_string = "Hello, World!"
+```
+
+These built-in data structures are versatile and can be combined and manipulated in various ways to solve a wide range of programming problems. Additionally, Python also provides other data structures through modules in its standard library, such as arrays, deque, and heapq, among others.
