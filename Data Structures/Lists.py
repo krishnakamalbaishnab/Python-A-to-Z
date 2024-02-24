@@ -193,3 +193,10 @@ print(items) #prints [('product2', 9), ('product1', 10), ('product3', 12)]
 # The items list contains tuples where each tuple has two elements: the name of a product and its corresponding price.
 # The sort_item function is defined to take an item (which is a tuple) as input and return the second element of that tuple (index 1), which in this case is the price.
 # The sort method is called on the items list with the key parameter set to the sort_item function. This means that the sort method will use the values returned by the sort_item function to determine the order of sorting.
+
+
+# using lambda function to sort the list
+
+items.sort(key=lambda item: item[1])
+
+print(items) #prints [('product2', 9), ('product1', 10), ('product3', 12)]
