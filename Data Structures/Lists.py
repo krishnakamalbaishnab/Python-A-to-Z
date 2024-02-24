@@ -114,4 +114,40 @@ for i in enumerate(myList):
     print(i) #prints 1,2,3,4,5,6,7,8,9,10
 
 
+# adding for removing a element from the list
+
+myList.append(11) #adds 11 to the end of the list , we use append when we want to add an    element to the end of the list
+
+myList.insert(0,0) #adds 0 to the beginning of the list , we use insert when we want to add an element at a specific position in the list
+
+
+print(myList) #prints [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+
+# removing an element from the list
+
+myList.pop() #removes the last element from the list
+
+
+print(myList) #prints [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+myList.pop(0) #removes the first element from the list
+
+print(myList) #prints [2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+myList.remove(3) #removes the first occurence of the element from the list
+
+print(myList) #prints [2, 4, 5, 6, 7, 8, 9, 10]
+
+# reversing the list
+
+myList.reverse()
+
+myList.clear() #removes all the elements from the list
+
+del myList[0:3] #deletes the list
+
+print(myList) #prints []
+
+
 
