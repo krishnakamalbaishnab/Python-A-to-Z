@@ -230,3 +230,14 @@ print(prices) #prints [10, 9, 12]
 usingMapPrice = map(lambda item: item[1], items2)
 
 print(list(usingMapPrice)) #prints [10, 9, 12] 
+
+
+# filter function
+
+# suppose we want to filter the products whose price is greater than 10, we can do it in the following way  
+
+filtered = filter(lambda item: item[1] > 10, items2)
+
+print(list(filtered)) #prints [('product3', 12)]
+
+# list comprehensions
