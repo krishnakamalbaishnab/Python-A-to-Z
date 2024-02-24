@@ -200,3 +200,33 @@ print(items) #prints [('product2', 9), ('product1', 10), ('product3', 12)]
 items.sort(key=lambda item: item[1])
 
 print(items) #prints [('product2', 9), ('product1', 10), ('product3', 12)]
+
+
+
+# map functiion
+
+items2 = [
+    ("product1", 10),
+    ("product2", 9),
+    ("product3", 12)
+]
+
+# now suppose we want to make a different list from the above list, imagine we only want the price of the prducts in a different list,so what we are gonns do is that
+
+# we will use the map function to do this
+
+# lets see how we can do this
+
+prices = [] #declaring an empty list
+
+for i in items2:
+    prices.append(i[1]) #appending the prices of the products to the prices list , here i[1] is the price of the product i,e the second element of the tuple
+
+print(prices) #prints [10, 9, 12]
+
+# now lets see how we can do the same thing using the map function
+
+
+usingMapPrice = map(lambda item: item[1], items2)
+
+print(list(usingMapPrice)) #prints [10, 9, 12] 
