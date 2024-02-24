@@ -108,3 +108,10 @@ print(third) #prints 3
 print(rest) #prints [4, 5, 6, 7, 8, 9, 10]
 
 
+# looping through the list
+
+for i in enumerate(myList):
+    print(i) #prints 1,2,3,4,5,6,7,8,9,10
+
+
+
