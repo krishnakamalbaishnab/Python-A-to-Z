@@ -87,3 +87,24 @@ print(customList[3:11:2]) #prints [3, 5, 7, 9]
 # if we want to access the elements from 3 to 10 with a step of 2 in reverse order we can do it in the following way
 
 print(customList[10:2:-2]) #prints [10, 8, 6, 4]
+
+
+# list unpacking or destructuring
+
+myList = [1,2,3,4,5,6,7,8,9,10]
+
+print(myList) #prints [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+# now if we want to unpack the list into multiple pieces , what we can do is as follows
+
+# suppose we want the first second and third element in the list
+
+first,second,third, *rest = myList
+
+print(first) #prints 1
+print(second) #prints 2
+print(third) #prints 3
+print(rest) #prints [4, 5, 6, 7, 8, 9, 10]
+
+
