@@ -167,3 +167,29 @@ if "a" in myList2:
 # if we want to check the occurance of the element in the list
 
 print(myList2.count("a")) #prints 2
+
+
+# sorting the list
+
+
+items = [
+    ("product1", 10),
+    ("product2", 9),
+    ("product3", 12)
+]
+
+
+def sort_item(item):
+    return item[1]
+
+items.sort(key=sort_item)
+
+print(items) #prints [('product2', 9), ('product1', 10), ('product3', 12)]
+
+# explaination of the above code
+
+# In this code, return item[1] is a part of the sort_item function. Let's break down the code:
+
+# The items list contains tuples where each tuple has two elements: the name of a product and its corresponding price.
+# The sort_item function is defined to take an item (which is a tuple) as input and return the second element of that tuple (index 1), which in this case is the price.
+# The sort method is called on the items list with the key parameter set to the sort_item function. This means that the sort method will use the values returned by the sort_item function to determine the order of sorting.
