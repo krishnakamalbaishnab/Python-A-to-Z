@@ -241,3 +241,17 @@ filtered = filter(lambda item: item[1] > 10, items2)
 print(list(filtered)) #prints [('product3', 12)]
 
 # list comprehensions
+
+# suppose we want to make a list of the prices of the products whose price is greater than 10, we can do it in the following way
+
+filtered2 = [item for item in items2 if item[1] > 10]
+
+print(filtered2) #prints [('product3', 12)]
+
+# zip function
+
+list1 = [1,2,3]
+list2 = [10,20,30]
+
+print(list(zip(list1,list2))) #prints [(1, 10), (2, 20), (3, 30)]
+
