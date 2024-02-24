@@ -151,3 +151,19 @@ print(myList) #prints []
 
 
 
+# finding items ina list
+
+myList2 = ["a","b","c","d","a"]
+
+
+print(myList2.index("a")) #prints 0
+
+
+# what if we want to check if a element is present in the list or not
+
+if "a" in myList2:
+    print("yes") #prints yes
+
+# if we want to check the occurance of the element in the list
+
+print(myList2.count("a")) #prints 2
