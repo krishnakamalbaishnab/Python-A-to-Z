@@ -322,3 +322,16 @@ if not queue:
     print("empty") #prints empty
 
 # what this above code is doing is that we are adding the elements to the queue and then removing the first element from the queue and then checking if the queue is empty or not
+
+# swap two variables
+
+x= 10
+y= 20
+
+z = x
+x = y
+y =z
+
+
+print(x) #prints 10
+print(y) #prints 10
