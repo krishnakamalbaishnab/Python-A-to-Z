@@ -257,7 +257,7 @@ print(list(zip(list1,list2))) #prints [(1, 10), (2, 20), (3, 30)]
 
 
 # Stack Data Structure
-
+# STACK HAS THE LIFO BEHAVIOUR -> LAST IN FIRST OUT
 
 # Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
 
@@ -291,7 +291,30 @@ print(last) #prints 3/ the last website
 # once we reach the end of the browsing we can clear the stack in the following way and the back buton will be disabled
 
 # so let's check it how it works 
+browsingSites[-1] # returns the last website from the stack
 
 if not browsingSites:
     print("disable") #prints disable
+
+
+
+# Queue Data Structure
+
+# Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO). A good example of a queue is any queue of consumers for a resource where the consumer that came first is served first. The difference between stacks and queues is in removing. In a stack we remove the item the most recently added; in a queue, we remove the item the least recently added.
+
+# QUEUE HAS THE FIFO BEHAVIOUR -> FIRST IN FIRST OUT
+# example 
+# when we send a message to someone on whatsapp, the message goes to the end of the queue and the person at the start of the queue gets the message first
+
+# now let's see the example of queue using list
+
+from collections import  deque #importing the deque class from the collections module
+
+queue = deque([])
+queue.append(1)
+queue.append(2)
+queue.append(3)
+queue.append(4)
+queue.popleft() #removes the first element from the queue
+print(queue) #prints deque([1, 2, 3, 4])
 
