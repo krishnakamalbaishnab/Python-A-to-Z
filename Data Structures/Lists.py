@@ -255,3 +255,4 @@ list2 = [10,20,30]
 
 print(list(zip(list1,list2))) #prints [(1, 10), (2, 20), (3, 30)]
 
+
