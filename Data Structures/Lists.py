@@ -318,3 +318,7 @@ queue.append(4)
 queue.popleft() #removes the first element from the queue
 print(queue) #prints deque([1, 2, 3, 4])
 
+if not queue:
+    print("empty") #prints empty
+
+# what this above code is doing is that we are adding the elements to the queue and then removing the first element from the queue and then checking if the queue is empty or not
