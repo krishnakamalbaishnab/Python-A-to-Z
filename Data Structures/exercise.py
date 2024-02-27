@@ -14,3 +14,14 @@ sortedCharFrequency = sorted(charFrequency.items(), key=lambda kv: kv[1], revers
 
 
 print(sortedCharFrequency[0])
+
+
+def foo(lst):
+    lst.append(4)
+    lst = [5,6]
+lst = [1,2,3]
+foo(lst)
+print(lst) #prints [1, 2, 3, 4] #explaination: The append method modifies the list in place, so the changes are visible outside the function. However, the assignment lst = [5,6] creates a new list that only exists within the scope of the function, so the original list is not modified.
+
+
+
