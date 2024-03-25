@@ -1,6 +1,6 @@
-def calculate_tax(amount):
+def calculate_tax():
     pass
 
-def calculate_shipping(amount):
+def calculate_shipping():
     pass
 
