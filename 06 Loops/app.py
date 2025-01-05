@@ -16,8 +16,16 @@
 # XX
 # XX
 
+# x
+# x
+# x
+# x
+# x
+# xxxxxxx
 
-pattern=[5,2,5,2,2,2]
+
+# pattern=[5,2,5,2,2,2]
+pattern = [1,1,1,1,1,6]
 
 
 for xCount in pattern:
@@ -25,3 +33,5 @@ for xCount in pattern:
     for count in range(xCount):
         output = output+'X'
     print(output)
+
+
