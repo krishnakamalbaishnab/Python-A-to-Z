@@ -1,6 +1,6 @@
 # Collection of Python Projects and Exercises
 
-Welcome to the collection of Python projects and exercises! This repository contains a series of Python projects and exercises that I created while learning the language in 2018. These projects aim to showcase fundamental concepts and practical applications of Python programming.
+Welcome to the collection of Python projects and exercises! This repository contains a series of Python projects and exercises that I created while mastering the language. These projects aim to showcase fundamental concepts and practical applications of Python programming.
 
 ##Basics Folder
 
