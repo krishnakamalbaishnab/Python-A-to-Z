@@ -25,3 +25,15 @@ print(f"{a} << 1 = {left_shift}")
 # Right Shift (>>)
 right_shift = a >> 1  # Shifts bits of 'a' to the right by 1 position
 print(f"{a} >> 1 = {right_shift}")
+
+
+
+
+
+# TODO: Explanation:
+# Complement (~a): Inverts all bits (one's complement).
+# AND (a & b): Performs bitwise AND operation.
+# OR (a | b): Performs bitwise OR operation.
+# XOR (a ^ b): Performs bitwise XOR operation (1 if bits are different).
+# Left Shift (a << n): Moves bits to the left, multiplying by 2^n.
+# Right Shift (a >> n): Moves bits to the right, dividing by 2^n.
